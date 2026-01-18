@@ -66,7 +66,7 @@ The XML documents were verified following two steps:
 - The XML documents were validated against the XSD using an online XML validator.
 - The validator confirms: **“The XML document is valid.”**
 
-Screenshots demonstrating these validations are included in the `screenshots`
+Screenshots demonstrating these validations are included in the `screenshot`
 folder of this repository.
 
 ---
