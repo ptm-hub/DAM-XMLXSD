@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+    <xs:element name="WeatherReport">
+        <xs:complexType>
+            <xs:sequence>
+
+                <xs:element name="ReportID" type="xs:string"/>
+                <xs:element name="Timestamp" type="xs:dateTime"/>
+
+                <xs:element name="User">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="UserID" type="xs:string"/>
+                            <xs:element name="Device" type="xs:string"/>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+
+                <xs:element name="Location">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="City" type="xs:string"/>
+                            <xs:element name="Latitude" type="xs:decimal"/>
+                            <xs:element name="Longitude" type="xs:decimal"/>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+
+                <xs:element name="WeatherData">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="Temperature" type="xs:decimal"/>
+                            <xs:element name="Humidity" type="xs:integer"/>
+                            <xs:element name="WindSpeed" type="xs:decimal"/>
+                            <xs:element name="Precipitation" type="xs:decimal"/>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+
+                <xs:element name="IncidentType" type="xs:string"/>
+
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+</xs:schema>

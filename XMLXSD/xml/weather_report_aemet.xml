@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WeatherReport xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+               xsi:noNamespaceSchemaLocation="../schema/weather_report_schema.xsd">
+
+    <ReportID>WR-002</ReportID>
+    <Timestamp>2025-05-10T12:00:00</Timestamp>
+
+    <User>
+        <UserID>AEMET</UserID>
+        <Device>WeatherStation</Device>
+    </User>
+
+    <Location>
+        <City>Sevilla</City>
+        <Latitude>37.3891</Latitude>
+        <Longitude>-5.9845</Longitude>
+    </Location>
+
+    <WeatherData>
+        <Temperature>32.1</Temperature>
+        <Humidity>28</Humidity>
+        <WindSpeed>12.8</WindSpeed>
+        <Precipitation>0</Precipitation>
+    </WeatherData>
+
+    <IncidentType>HighTemperature</IncidentType>
+
+</WeatherReport>

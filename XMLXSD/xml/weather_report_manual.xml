@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WeatherReport xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+               xsi:noNamespaceSchemaLocation="../schema/weather_report_schema.xsd">
+
+    <ReportID>WR-001</ReportID>
+    <Timestamp>2025-05-10T18:45:00</Timestamp>
+
+    <User>
+        <UserID>anonymous_123</UserID>
+        <Device>Android</Device>
+    </User>
+
+    <Location>
+        <City>Madrid</City>
+        <Latitude>40.4168</Latitude>
+        <Longitude>-3.7038</Longitude>
+    </Location>
+
+    <WeatherData>
+        <Temperature>28.5</Temperature>
+        <Humidity>35</Humidity>
+        <WindSpeed>15.2</WindSpeed>
+        <Precipitation>0</Precipitation>
+    </WeatherData>
+
+    <IncidentType>Heatwave</IncidentType>
+
+</WeatherReport>
