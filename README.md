@@ -97,12 +97,12 @@ The following tools and resources were used in this project:
 
 ## 7. General Impression
 
-This project demonstrates a complete XML-based data exchange workflow between
-a mobile application and a RESTful API. It includes multiple XML documents,
-a reusable XML Schema, OpenData usage, and clear validation evidence.
+This project was developed as part of an academic assignment and meets all the
+required objectives. It demonstrates the correct use of XML and XML Schema (XSD)
+for data exchange, validation, and documentation.
 
-The solution follows good practices and can be easily extended to real-world
-applications.
+The work follows the guidelines provided and includes all the elements required
+for the submission of the task.
 
 ---
 
